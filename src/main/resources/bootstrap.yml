@@ -1,0 +1,11 @@
+---
+#bootstrap.yml loads first, application.yml loads after this file
+#if you change uri or profile for example, you must do it from this file
+spring:
+  profiles:
+    active:
+    - default
+  cloud:
+    config:
+      uri:
+      - http://localhost:9000
