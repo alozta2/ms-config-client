@@ -1,0 +1,5 @@
+---
+server:  port: 9001
+spring:
+  application:
+    name: ms-demo-config-client #naming is critical because it sets matching named file as config
